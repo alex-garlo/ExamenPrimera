@@ -67,6 +67,14 @@ public class CalculadoraTest {
 		Assertions.assertThrows(ArithmeticException.class,
 				() -> c1.solucion1(1, 1, 1));
 	}
+	
+	@Test
+	void testSolucion2Incorrecta() {
+		Throwable excepcion =
+		Assertions.assertThrows(ArithmeticException.class,
+				() -> c1.solucion2(1, 1, 1));
+	
+	}
 
 
 
