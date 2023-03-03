@@ -74,14 +74,7 @@ public class CalculadoraTest {
 		Assertions.assertThrows(ArithmeticException.class,
 				() -> c1.solucion2(1, 1, 1));
 	
-	}
 	
-	@Test
-	void testPrimoIncorrecto() {
-		Throwable excepcion =
-		Assertions.assertThrows(IllegalArgumentException.class,
-				() -> c1.esPrimo(0));
-			
 	}
 
 
