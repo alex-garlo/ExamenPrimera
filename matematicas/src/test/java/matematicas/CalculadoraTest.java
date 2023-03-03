@@ -35,4 +35,13 @@ public class CalculadoraTest {
 		Assertions.assertEquals(c1.solucion1(-1, -7, -10), -5);
 	
 	}
+	
+	@Test
+	void testSolucion2Correcta() {
+		Assertions.assertEquals(c1.solucion2(1, -5, 6), 2);
+		Assertions.assertEquals(c1.solucion2(2, -7, 3), 0,5);
+		Assertions.assertEquals(c1.solucion2(-1, -7, -10), -2);
+
+	}
+
 }
