@@ -51,6 +51,16 @@ public class CalculadoraTest {
 		Assertions.assertEquals(c1.esPrimo(19), true);
 		
 	}
+	
+	@Test
+	void testNoPrimo() {
+		Assertions.assertEquals(c1.esPrimo(15), false);
+		Assertions.assertEquals(c1.esPrimo(16), false);
+		Assertions.assertEquals(c1.esPrimo(20), false);
+		
+		
+	}
+
 
 
 }
