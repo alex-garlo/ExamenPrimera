@@ -43,5 +43,14 @@ public class CalculadoraTest {
 		Assertions.assertEquals(c1.solucion2(-1, -7, -10), -2);
 
 	}
+	
+	@Test
+	void testPrimo() {
+		Assertions.assertEquals(c1.esPrimo(2), true);
+		Assertions.assertEquals(c1.esPrimo(7), true);
+		Assertions.assertEquals(c1.esPrimo(19), true);
+		
+	}
+
 
 }
