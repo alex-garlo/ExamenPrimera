@@ -81,6 +81,12 @@ public class CalculadoraTest {
 		Throwable excepcion =
 		Assertions.assertThrows(IllegalArgumentException.class,
 				() -> c1.esPrimo(0));
+		Throwable excepcion2 =
+				Assertions.assertThrows(IllegalArgumentException.class,
+						() -> c1.esPrimo(-1));
+		Throwable excepcion3 =
+				Assertions.assertThrows(IllegalArgumentException.class,
+						() -> c1.esPrimo(1));
 			
 
 	}
